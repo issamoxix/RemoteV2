@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.VideoIdInputs {
+  margin-bottom: 20px;
+}
+.VideoIdInputs input[type="text"]{
+  width: 60%;
+}
+.VideoIdInputs input[type="submit"]{
+  display: block;
+  margin: auto;
+  width: 30%;
+  height: 50px;
+  cursor: pointer;
+}

@@ -21,7 +21,8 @@ function App() {
     <div className="App">
       <h1>Test</h1>
       <YouTube videoId={videoId} opts={opts} ref={ytbRef} onPause={() => {
-        ytbRef.current.internalPlayer.playVideo()
+      
+        setTimeout(()=> ytbRef.current.internalPlayer.playVideo(), 1000)
         console.log("refx State changed",ytbRef.current.state)
       }} />
     </div>
